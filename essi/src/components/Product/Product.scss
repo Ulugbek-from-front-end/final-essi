@@ -1,0 +1,298 @@
+body{
+    overflow-x: hidden;
+    
+}
+.a1{
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: 600;
+    
+}
+.product{
+    
+    background: url(../../../public/intro.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 945px;
+    z-index: -1;
+    display: flex;
+    
+    &__img{
+        width: 100vw;
+        height: 60vh;
+        position: absolute;
+        top: 400px;
+        left: 0px;
+
+    }
+    &__btn{
+        width: 150px;
+        height: 60px;
+        position: absolute;
+        top: 550px;
+        left: 270px;
+        animation-name: triangle;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        border-radius: 50px;
+        border: rgb(252, 73, 73) 1px solid;
+        transition: 0.3s;
+        &:hover{
+            .a1{
+                color: rgb(252, 73, 73);
+            }
+        }
+
+    }
+    &__img2{
+        left: 0px;
+        position: absolute;
+    }
+    &__h1{
+        font-family: "Roboto Slab", serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+        position: absolute;
+        color: white;
+        top: 190px;
+        font-size: 60px;
+        left: 250px;
+        z-index: 2;
+    }
+    &__h3{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 500;
+        position: absolute;
+        color: white;
+        top: 450px;
+        font-size: 15;
+        left: 250px;
+        z-index: 2;
+    }
+}
+.product2{
+    height: 3000px;
+    &__h1{
+        position: absolute;
+        left: 800px;
+        top: 1000px;
+        color: rgb(13, 15, 90);
+        font-size: 40px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 900;
+
+        
+    }
+    &__h2{
+        font-size: 30px;
+        position: absolute;
+        color: rgb(13, 15, 90);
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 900;
+        top: 1350px;
+        left: 270px;
+
+    }
+    &__img{
+        position: absolute;
+        left: 750px;
+        top: 230px;
+
+    }
+    &__h3{
+        font-size: 20px;
+        color: rgb(13, 15, 90);
+        font-family: Arial, Helvetica, sans-serif;
+        top: 1400px;
+        position: absolute;
+        left: 270px;
+        font-weight: 900;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    &__img2{
+        left: 900px;
+        top: 1000px;
+        position: absolute;
+    }
+    &__img3{
+        position: absolute;
+        left: 0;
+        top: 1200px;
+        opacity: 0.2;
+    }
+
+    &__btn2{
+        width: 150px;
+        height: 60px;
+        position: absolute;
+        top: 1600px;
+        left: 270px;
+        border-radius: 50px;
+        border: rgb(252, 73, 73) 1px solid;
+        transition: 0.3s;
+        animation-name: rectangle;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        a{
+            color: rgb(252, 73, 73);
+        }
+        
+        &:hover{
+            .a1{
+                color:white;
+            }
+        }
+
+    }
+    &__img4{
+        
+        opacity: 1;
+        top: 2000px;
+        position: absolute;
+    }
+    &__h4{
+        font-size: 30px;
+        position: absolute;
+        color: rgb(13, 15, 90);
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 900;
+        top: 2200px;
+        left: 970px;
+
+    }
+    &__h5{
+        font-size: 20px;
+        color: rgb(13, 15, 90);
+        font-family: Arial, Helvetica, sans-serif;
+        top: 2300px;
+        position: absolute;
+        left: 970px;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+    &__btn3{
+        width: 150px;
+        height: 60px;
+        position: absolute;
+        top: 2460px;
+        left: 970px;
+        animation-name: top-down;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+
+        border-radius: 50px;
+        border: rgb(252, 73, 73) 1px solid;
+        transition: 0.3s;
+        a{
+            color: rgb(252, 73, 73);
+        }
+        
+        &:hover{
+            .a1{
+                color:white;
+            }
+        }
+    }
+    &__img5{
+        
+        top: 2600px;
+        left: 1000px;
+        position: absolute;
+    }
+    &__h2_2{
+        font-size: 30px;
+        color: rgb(13, 15, 90);
+        font-family: Arial, Helvetica, sans-serif;
+        top: 3100px;
+        position: absolute;
+        left: 270px;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    &__h3_2{
+        font-size: 20px;
+        color: rgb(13, 15, 90);
+        font-family: Arial, Helvetica, sans-serif;
+        top: 3180px;
+        position: absolute;
+        left: 270px;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    &__btn4{
+        width: 150px;
+        height: 60px;
+        position: absolute;
+        top: 3280px;
+        left: 270px;
+        animation-name: up-bottom;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        border-radius: 50px;
+        border: rgb(252, 73, 73) 1px solid;
+        transition: 0.3s;
+        a{
+            color: rgb(252, 73, 73);
+        }
+        
+        &:hover{
+            .a1{
+                color:white;
+            }
+        }
+    }
+
+
+}
+@keyframes triangle{
+    from{
+        top:550px;
+        }
+50%{
+       top: 555px ;
+    }
+    to{
+        top: 550px;
+    }
+}
+@keyframes rectangle{
+from{
+    top: 1600px;
+}
+50%{
+    top: 1605px;
+}
+to{
+    top: 1600px;
+}
+}
+@keyframes up-bottom{
+    from{
+        top: 3280px;
+    }
+    50%{
+        top: 3285px;
+    }
+    to{
+        top: 3280px;
+    }
+}
+@keyframes top-down{
+    from{
+        top: 2460px;
+    }
+    50%{
+        top: 2465px;
+    }
+    to{
+        top: 2460px;
+    }
+}
+img{
+    display: block;
+}

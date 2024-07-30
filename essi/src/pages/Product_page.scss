@@ -1,0 +1,109 @@
+.container4 {
+    display: flex;
+    justify-content: center;
+    background-image: url("../../public/background-vite.jpg");
+    height: 960px;
+    
+  }
+  
+  .flex_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  
+  .total_new_card {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  .total_new_card__img {
+width: 600px;
+transform: translate(-300px,120px);
+  }
+  
+  .total_new_card__h1 {
+   position: absolute;
+   top: 150px;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: 900;
+   color: #8b159b;
+   font-size: 50px;
+
+   left: 1000px;
+  }
+  
+  .total_new_card__description {
+    margin: 5px 0;
+    color: #003e8f;
+    width: 400px;
+    position: absolute;
+    left: 1000px;
+    top: 250px;
+
+  }
+
+  
+  .modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal-content {
+    position: relative;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100vw;
+    max-width: 100vw;
+    overflow-y: auto;
+    max-height: 80%;
+  }
+
+  .btn4{
+  width: 150px;
+  height: 60px;
+  position: absolute;
+  top: 280px;
+  left: 990px;
+  animation-name: upt-bottomt;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  border-radius: 50px;
+  border: rgb(252, 73, 73) 1px solid;
+  transition: 0.3s;
+  a{
+      color: rgb(252, 73, 73);
+  }
+  
+  &:hover{
+      .a1{
+          color:white;
+      }
+  }
+}
+@keyframes upt-bottomt{
+from{
+  top: 600px;
+}
+50%{
+  top: 605px;
+}
+to{
+  top: 600px;
+}
+}
+  
+
+  
+
+  
+
+  

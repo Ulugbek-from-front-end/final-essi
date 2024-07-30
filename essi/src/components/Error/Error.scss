@@ -1,0 +1,27 @@
+.Error{
+    width: 1600px;
+    height: 960px;
+    &__img1{
+        width: 1900px;
+        height: 960px;
+       
+
+    }
+}
+button{ transition: 2s;
+    background-color: white;
+    color: red;
+    border-radius: 50px;
+    border: 2px solid red;
+    position: absolute;
+    width: 150px;
+    height: 70px;
+    text-decoration: none;
+    left: 780px;
+    top: 550px;
+}
+a{color: red;}
+button:hover{
+    background-color: red;
+    a{color: white;}
+}
